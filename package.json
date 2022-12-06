@@ -1,0 +1,14 @@
+{
+  "name": "ethersoperations",
+  "version": "1.0.0",
+  "description": "ethers simple operations example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xxykz",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2"
+  }
+}
