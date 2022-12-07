@@ -1,0 +1,14 @@
+Los servicios de nombre de ethereum permiten relacionar un nombre a cualquier set de claves y valores.
+
+Uno de los usos mas improtantes es utilizar estos nombres para referirnos a una direccion de ethereum.
+
+En la libreria de ethers practicamente en cualquier seccion que acepte una address , podemos reemplazarlo con el ENS.
+
+El objeto providedr nos ofrece una serie de operaciones basicas para trabajar con los ENS.
+
+getAvatar(): Retorna la url del avatar asociado al ENS, o NULL si no tiene avatar configurado
+
+getResolver(): Retorna una instancia la cual puede ser utilizada para realizar consultas sobre operaciones especificas de ese ENS.
+
+lookUpAddress(): Retorna la direccion vinculada con el ENS pasado como parametro.
+

@@ -6,7 +6,7 @@ const provider = new ethers.providers.JsonRpcProvider(
  `https://mainnet.infura.io/v3/${INFURA_ID}`
 );
 
-// Numero de bloque al que le Drealizamos el fetch
+// Numero de bloque al que le Drealizamos el fetch, los bloques son la expresion bajo la cual se guarda y enlaza la informacion en la blockchain
 const blockNumber = [1, 2, 3, 100004];
 
 // Obtner informacion del bloque que querramos
