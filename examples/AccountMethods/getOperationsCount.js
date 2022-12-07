@@ -1,7 +1,7 @@
 const { ethers } = require("ethers");
 
 // API KEY DE INFURA
-const INFURA_ID = "6ad32fe8f2d64de4b501ab527cc49740";
+const INFURA_ID = "INGRESA TU APIKEY O INFURA ID";
 
 // UN PROVIDER ES LA PUERTA DE ENTRADA A LA LECTURA DE LA INFORMACION EN LA BLOCKCHAIN
 const provider = new ethers.providers.JsonRpcProvider(
