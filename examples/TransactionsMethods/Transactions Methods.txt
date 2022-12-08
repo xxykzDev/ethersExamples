@@ -1,0 +1,5 @@
+Metodo Call: este metodo nos retorna el resultado de ejecucion de una trasaccion de lectura, 
+este metodo no puede realizar modificaciones de estado, es util para realizar llamadas a los getters de los contratos.
+
+provider.call
+provider.estimateGas => retorna el costo estimado para realizar una transaccion a la red
